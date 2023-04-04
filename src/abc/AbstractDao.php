@@ -371,6 +371,9 @@ abstract class AbstractDao {
         }
     }
 
+    /**
+     * @throws ReflectionException
+     */
     private function getPrepareInsertStatement(): string {
         // INSERT INTO tbl_node (parent_id, name, alias, nature) VALUES (?, ?, ?, ?)
         $s1 = /** @lang text */
@@ -390,6 +393,9 @@ abstract class AbstractDao {
         return $statement;
     }
 
+    /**
+     * @throws ReflectionException
+     */
     private function getPrepareUpdateStatement(): string {
         // UPDATE tbl_name SET parent_id=?, name=?, alias=?, nature=?, public=? WHERE ID=?
         $s1 = /** @lang text */
