@@ -1,0 +1,24 @@
+{
+    "name": "bhenk/msdata",
+    "description": "data access and persistence",
+    "type": "library",
+    "license": "Apache-2.0",
+    "keywords": ["dao", "MySql", "data-layer"],
+    "homepage": "https://github.com/bhenk/msdata-d",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "henk van den berg",
+            "homepage": "https://gitzw.art"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "bhenk/logger": "^1.0",
+        "ext-mysqli": "*"
+    },
+    "autoload": {
+        "psr-4": {"bhenk\\msdata\\": "src/"}
+    }
+
+}
