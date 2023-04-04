@@ -4,3 +4,10 @@
 /src/user/
 /logs/
 /config/
+/.idea/.gitignore
+/build.sh
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/msdata.iml
+/.idea/php.xml
+/.idea/vcs.xml
