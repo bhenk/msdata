@@ -2,6 +2,7 @@
 /unit/
 /src/node/
 /src/user/
+/src/zzz/
 /logs/
 /config/
 /.idea/.gitignore
@@ -11,3 +12,4 @@
 /.idea/msdata.iml
 /.idea/php.xml
 /.idea/vcs.xml
+
